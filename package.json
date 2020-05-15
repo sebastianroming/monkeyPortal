@@ -1,0 +1,26 @@
+{
+  "name": "monkeyPortal",
+  "version": "0.0.1",
+  "description": "A customer facing portal for small businesses",
+  "main": "dist/yarindex.js",
+  "repository": "https://github.com/sebastianroming/monkeyPortal.git",
+  "author": "Sebastian Roming <sebastian@webmonkey.io>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "version:major": "yarn version --major",
+    "version:minor": "yarn version --minor",
+    "version:patch": "yarn version --patch",
+    "version:premajor": "yarn version --premajor --preid SNAPSHOT",
+    "version:preminor": "yarn version --preminor --preid SNAPSHOT",
+    "version:prepatch": "yarn version --prepatch --preid SNAPSHOT",
+    "version:prerelease": "yarn version --prerelease"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.2",
+    "webpack-merge": "^4.2.2"
+  }
+}
